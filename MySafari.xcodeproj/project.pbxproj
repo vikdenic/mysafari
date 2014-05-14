@@ -21,6 +21,7 @@
 		937648ED1923EB1200FB8D91 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937648CF1923EB1200FB8D91 /* UIKit.framework */; };
 		937648F51923EB1200FB8D91 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 937648F31923EB1200FB8D91 /* InfoPlist.strings */; };
 		937648F71923EB1200FB8D91 /* MySafariTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 937648F61923EB1200FB8D91 /* MySafariTests.m */; };
+		937649011923EE7B00FB8D91 /* CheckMate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 937649001923EE7B00FB8D91 /* CheckMate.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,7 @@
 		937648F21923EB1200FB8D91 /* MySafariTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "MySafariTests-Info.plist"; sourceTree = "<group>"; };
 		937648F41923EB1200FB8D91 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		937648F61923EB1200FB8D91 /* MySafariTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MySafariTests.m; sourceTree = "<group>"; };
+		937649001923EE7B00FB8D91 /* CheckMate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CheckMate.framework; path = ../../../Desktop/CheckMate.framework; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				937649011923EE7B00FB8D91 /* CheckMate.framework in Frameworks */,
 				937648CE1923EB1200FB8D91 /* CoreGraphics.framework in Frameworks */,
 				937648D01923EB1200FB8D91 /* UIKit.framework in Frameworks */,
 				937648CC1923EB1200FB8D91 /* Foundation.framework in Frameworks */,
@@ -101,6 +104,7 @@
 		937648CA1923EB1200FB8D91 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				937649001923EE7B00FB8D91 /* CheckMate.framework */,
 				937648CB1923EB1200FB8D91 /* Foundation.framework */,
 				937648CD1923EB1200FB8D91 /* CoreGraphics.framework */,
 				937648CF1923EB1200FB8D91 /* UIKit.framework */,
@@ -376,6 +380,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/viktordenic/Desktop,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MySafari/MySafari-Prefix.pch";
 				INFOPLIST_FILE = "MySafari/MySafari-Info.plist";
@@ -389,6 +397,10 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					/Users/viktordenic/Desktop,
+				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "MySafari/MySafari-Prefix.pch";
 				INFOPLIST_FILE = "MySafari/MySafari-Info.plist";
